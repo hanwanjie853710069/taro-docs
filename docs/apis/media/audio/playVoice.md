@@ -27,7 +27,7 @@ sidebar_label: playVoice
 | --- | --- | :---: | --- |
 | filePath | `string` | 是 | 需要播放的语音文件的文件路径 |
 | complete | `(res: TaroGeneral.CallbackResult) => void` | 否 | 接口调用结束的回调函数（调用成功、失败都会执行） |
-| duration | `number` | 否 | 指定录音时长，到达指定的录音时长后会自动停止录音，单位：秒 |
+| duration | `number` | 否 | 指定语音播放时长，到达指定的语音时长后会自动停止播放语音，单位：秒 |
 | fail | `(res: TaroGeneral.CallbackResult) => void` | 否 | 接口调用失败的回调函数 |
 | success | `(res: TaroGeneral.CallbackResult) => void` | 否 | 接口调用成功的回调函数 |
 
